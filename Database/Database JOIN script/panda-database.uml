@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>40e48946-0293-44fe-b803-b26819b51f81.DATABASE:panda-database</OriginalElement>
+  <nodes>
+    <node x="447.57196969696975" y="490.0">40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.reservation</node>
+    <node x="628.5719696969697" y="468.0">40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.request</node>
+    <node x="817.5719696969697" y="501.0">40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.problem</node>
+    <node x="446.8939393939394" y="724.0">40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.review</node>
+    <node x="213.0" y="256.0">40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.material</node>
+    <node x="389.0" y="234.0">40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.member</node>
+    <node x="647.0075757575758" y="190.0">40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.space</node>
+    <node x="170.44696969696975" y="0.0">40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.department</node>
+    <node x="62.0" y="534.5">40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.member_role</node>
+    <node x="0.0" y="234.0">40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.role</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.member_role" target="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.role">
+      <point x="-34.5" y="-36.5" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.review" target="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.member">
+      <point x="-42.25" y="-81.0" />
+      <point x="489.1439393939394" y="699.0" />
+      <point x="437.07196969696975" y="699.0" />
+      <point x="437.07196969696975" y="448.0" />
+      <point x="454.25" y="448.0" />
+      <point x="-21.75" y="70.0" />
+    </edge>
+    <edge source="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.request" target="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.space">
+      <point x="42.25" y="-103.0" />
+      <point x="755.3219696969697" y="448.0" />
+      <point x="732.0075757575758" y="448.0" />
+      <point x="0.0" y="114.0" />
+    </edge>
+    <edge source="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.reservation" target="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.member">
+      <point x="-40.25" y="-81.0" />
+      <point x="487.82196969696975" y="448.0" />
+      <point x="497.75" y="448.0" />
+      <point x="21.75" y="70.0" />
+    </edge>
+    <edge source="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.problem" target="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.space">
+      <point x="0.0" y="-70.0" />
+      <point x="887.0719696969697" y="448.0" />
+      <point x="788.6742424242424" y="448.0" />
+      <point x="56.66666666666663" y="114.0" />
+    </edge>
+    <edge source="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.role" target="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.department">
+      <point x="0.0" y="-70.0" />
+      <point x="96.5" y="165.0" />
+      <point x="206.11363636363637" y="165.0" />
+      <point x="-71.33333333333337" y="70.0" />
+    </edge>
+    <edge source="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.request" target="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.member">
+      <point x="-42.25" y="-103.0" />
+      <point x="670.8219696969697" y="438.0" />
+      <point x="541.25" y="438.0" />
+      <point x="65.25" y="70.0" />
+    </edge>
+    <edge source="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.reservation" target="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.space">
+      <point x="40.25" y="-81.0" />
+      <point x="568.3219696969697" y="448.0" />
+      <point x="675.3409090909091" y="448.0" />
+      <point x="-56.66666666666666" y="114.0" />
+    </edge>
+    <edge source="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.material" target="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.department">
+      <point x="0.0" y="-48.0" />
+      <point x="291.0" y="165.0" />
+      <point x="277.44696969696975" y="165.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.review" target="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.request">
+      <point x="42.25" y="-81.0" />
+      <point x="573.6439393939394" y="699.0" />
+      <point x="713.0719696969697" y="699.0" />
+      <point x="0.0" y="103.0" />
+    </edge>
+    <edge source="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.member_role" target="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.member">
+      <point x="34.5" y="-36.5" />
+      <point x="165.5" y="448.0" />
+      <point x="410.75" y="448.0" />
+      <point x="-65.25" y="70.0" />
+    </edge>
+    <edge source="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.space" target="40e48946-0293-44fe-b803-b26819b51f81.TABLE:panda-database.public.department">
+      <point x="0.0" y="-114.0" />
+      <point x="732.0075757575758" y="165.0" />
+      <point x="348.780303030303" y="165.0" />
+      <point x="71.33333333333326" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6687248330809472" x="321.91930843150647" y="279.07667564633505" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
